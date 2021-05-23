@@ -1,0 +1,10 @@
+for(end)
+for(start, end)
+
+for (start,end,condition)
+
+helper function in for loop
+
+enumarate()--gets index and values
+
+Zip() - we can use it for iteratring multiple iterable in one loop
