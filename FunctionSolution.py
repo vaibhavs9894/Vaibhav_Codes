@@ -1,1 +1,0 @@
-#Write a Function to calculate area and perimeter of rectangle.
