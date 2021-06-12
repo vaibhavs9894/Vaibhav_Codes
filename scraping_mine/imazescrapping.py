@@ -8,6 +8,6 @@ website_url = f"https://www.google.com/search?q={search_term}&sxsrf=ALeKk00TRZHh
 
 
 driver.get(website_url)
-driver.execute_script('window.scrollTo(0,10000);")
+driver.execute_script('window.scrollTo(0,10000);')
 time.sleep(5)
 
