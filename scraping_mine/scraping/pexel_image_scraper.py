@@ -33,6 +33,6 @@ for img in images:
     filename = filename.split('?')[0]
     # pexels-photo-1319854.jpeg
     obj = requests.get(src, stream=True)
-   # Image.open(obj.raw).save(UPLOAD_DIR+filename) # load and save image to a folder
+    Image.open(obj.raw).save(UPLOAD_DIR+filename) # load and save image to a folder
     print(f"image saved as {filename}")
 driver.close()
