@@ -24,5 +24,6 @@ for title,rating in zip(movie_titles,movie_ratings):
         'rating':float(rating.text)
     })
 
-#driver.close()
-pd.DataFrame(data).to_csv("top_movies.csv")
+driver.close()
+print(data)
+#pd.DataFrame(data).to_csv("top_movies.csv")
