@@ -6,7 +6,7 @@ from PIL import Image
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-url = "https://www.pexels.com/search/minimalist/"
+url = "https://www.pexels.com/search/minimalist/"   
 driver.get(url)
 time.sleep(5)
 
