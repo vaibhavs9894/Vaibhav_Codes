@@ -10,7 +10,7 @@ data=[]
 
 for vs in main.find_all('tr', class_='cb-srs-stats-tr'):
     name=vs.text
-    name=name.split(' ')
+    
     data.append({
         "Player":name})
 print(data)
