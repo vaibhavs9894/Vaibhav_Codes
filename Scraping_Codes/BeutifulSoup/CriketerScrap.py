@@ -10,8 +10,7 @@ data=[]
 
 for vs in main.find_all('tr', class_='cb-srs-stats-tr'):
     name=vs.text
-    
-    data.append({
+    player=    data.append({
         "Player":name})
 print(data)
 pd.DataFrame(data).to_csv("CriketTeam.csv")

@@ -6,10 +6,10 @@ from PIL import Image
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-url = "https://www.pexels.com/search/minimalist/"
+url = "https://www.pexels.com/search/rain/"
 driver.get(url)
 time.sleep(5)
-
+'''
 # scrolling logic
 curr_height = driver.execute_script("return document.body.scrollHeight")
 print("page height:",curr_height)
@@ -20,11 +20,11 @@ for i in range(10): # number of time we scroll, increase it to scroll down more 
     print("page height updated:",curr_height)
 
 # scroll ends here
-
+'''
 images = driver.find_elements_by_css_selector("img.photo-item__img")
 print("total images found:",len(images))
 
-UPLOAD_DIR = "scraped_imgs/"
+UPLOAD_DIR = "scraped_imgs2/"
 for img in images:
     src =  img.get_attribute('src')
     # https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500

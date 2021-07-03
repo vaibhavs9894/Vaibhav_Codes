@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
+
 r = requests.get("https://www.rottentomatoes.com/top/bestofrt/")
 htmlContent = r.content   
 soup= BeautifulSoup(htmlContent,"html.parser")
