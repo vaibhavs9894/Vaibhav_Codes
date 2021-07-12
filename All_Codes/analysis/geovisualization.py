@@ -4,13 +4,13 @@ import folium
 from folium import plugins # for clusters
 from streamlit_folium import folium_static
 
-df = pd.read_csv(".\data\police_dept.csv",parse_dates=['Date'])
+df = pd.read_csv("analysis/data/police_dept.csv",parse_dates=['Date'])
 st.sidebar.title("Welcome to San Francisco")
 
 sf_coords=(37.7754,-122.4034)
 
 if st.sidebar.checkbox("view dataset"):
-    st.write(df.head())
+    st.write(df)
 
 menu=st.sidebar.selectbox("select option",['view map empty','view map markers',"view map clusters"])
 if menu == 'view map empty':
