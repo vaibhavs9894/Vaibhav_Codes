@@ -7,3 +7,4 @@ streamlit
 scikit-learn
 textblob
 jupyterlab
+opencv-contrib-python
