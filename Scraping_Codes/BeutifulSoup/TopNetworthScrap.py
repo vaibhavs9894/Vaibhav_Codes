@@ -10,7 +10,7 @@ main=soup.find('ul',class_='top_100_couples')
 data=[]
 for vs in main.find_all('h2'):
     name=vs.text
-    data.append({
+    data.append({   
         "Player":name[:-10]})
 print(data)
 pd.DataFrame(data).to_csv("top10NetWorth.csv")

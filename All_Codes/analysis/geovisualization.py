@@ -10,7 +10,7 @@ st.sidebar.title("Welcome to San Francisco")
 sf_coords=(37.7754,-122.4034)
 
 if st.sidebar.checkbox("view dataset"):
-    st.write(df.head(20))
+    st.write(df.head())
 
 menu=st.sidebar.selectbox("select option",['view map empty','view map markers',"view map clusters"])
 if menu == 'view map empty':
