@@ -1,5 +1,6 @@
 import cv2
 im = cv2.imread('django.jpg')
+
 print("height",im.shape[0])
 print("width",im.shape[1])
 im = cv2.resize(im, (500, 500))
