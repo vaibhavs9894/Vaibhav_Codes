@@ -1,19 +1,14 @@
-import streamlit as st    
+import streamlit as st
+
 import pandas as pd
-import numpy as np 
-st.title("New world of sreamlit")
-st.write("Hello there")
-   
+
+st.title("Welcome to Product inventory adder")
+name = st.text_input('product name')
+price = st.number_input('product price')
+brand = st.text_input('product brand')
 
 
-
-chart_data = pd.DataFrame(
-np.random.randn(20, 3),
-columns=['a', 'b', 'c'])
-st.line_chart(chart_data)
-
-map_data = pd.DataFrame(
-np.random.randn(1000, 2) / [10, 10] + [37.76, -122.4],
-columns=['lat', 'lon'])
-st.map(map_data)
-
+op = st.checkbox("show products from database")
+if op:
+    df = pd.read_sql('products',engine)
+    st.write(df)
