@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(r"C:\Users\HP 346 G3\Videos\2020-12-22 18-25-06.mkv")
+cap = cv2.VideoCapture(r"C:\Users\Lenovo\Videos\a.mp4")
 while True:
     ret,frame = cap.read()
     if not ret:

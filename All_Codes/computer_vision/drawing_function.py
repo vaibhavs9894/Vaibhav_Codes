@@ -2,7 +2,7 @@ import cv2
 
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 
-cap = cv2.VideoCapture(r"C:\Users\HP 346 G3\Downloads\amans_app.mp4")
+cap = cv2.VideoCapture(r"C:\Users\Lenovo\Videos\a.mp4")
 while True:
     ret,frame = cap.read()
     if not ret:
