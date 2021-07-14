@@ -11,4 +11,5 @@ for i, col in enumerate(color):
     plt.plot(histr,color = col)
     plt.xlim([0,256])
 plt.show()
-cv2.imshow('im
+cv2.imshow('image',im)
+cv2.waitKey(0)
