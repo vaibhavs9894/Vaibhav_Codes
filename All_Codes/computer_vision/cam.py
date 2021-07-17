@@ -1,8 +1,7 @@
 import cv2
-import cv2
 
 cap = cv2.VideoCapture(0)
-while True:
+while cap.isOpened():
     ret,frame = cap.read()
     if not ret:
         print("Can't receive frame")
