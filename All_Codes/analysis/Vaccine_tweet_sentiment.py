@@ -16,7 +16,7 @@ df=df[:200]
 
 option=st.sidebar.selectbox("Choose any option",['sentiment analysis of all tweets','top 10 positive tweets','top 10 negative tweets'])
 
-usertweet = {
+'''usertweet = {
     'name':' ',
     'followers':'',
     'text':'',
@@ -27,6 +27,34 @@ usertweet = {
         'neg':'',
         'neu':'',}
     }
+'''
+
+class Student:
+
+    def __init__(self, name, cls, marks):
+        self.name = name
+        self.cls = cls
+        self.marks = marks
+
+    def show(self):
+        print("name  =>",self.name)
+        print(" cls  =>",self.cls)
+        print("marks =>",self.marks)
+
+    # convert object to string when printed
+    def __str__(self):
+        return f"{self.name} in {self.cls}"
+
+    def __gt__(self,other):
+        return self.marks > other.marks
+
+    def __repr__(self):
+        return self.name
+
+    def __add__(self,other):
+        return self.marks + other.marks
+
+
 
 if option == 'sentiment analysis of all tweets':
      for sentence in df['text']: 
@@ -54,9 +82,9 @@ if option == 'sentiment analysis of all tweets':
             usertweet['followers'] = df['user_followers']
             usertweet['text'] = df['text']
             usertweet['verified'] = df['user_verified']
-st.title(usertweet['name'])
+st.text(type(pos))
 
-
+st.text(pos)
          
 
     
