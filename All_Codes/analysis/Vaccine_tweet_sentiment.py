@@ -16,19 +16,6 @@ df=df[:200]
 
 option=st.sidebar.selectbox("Choose any option",['sentiment analysis of all tweets','top 10 positive tweets','top 10 negative tweets'])
 
-'''usertweet = {
-    'name':' ',
-    'followers':'',
-    'text':'',
-    'verified':'',
-    'sentiment':
-        {
-        'pos':'',
-        'neg':'',
-        'neu':'',}
-    }
-'''
-
 class Student:
 
     def __init__(self, name, cls, marks):

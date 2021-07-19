@@ -11,7 +11,7 @@ def filter(im):
     im7 = im.filter(ImageFilter.FIND_EDGES)
     im8 = im.filter(ImageFilter.MinFilter(3))
     im9 = im.filter(ImageFilter.MaxFilter(3))
-    im10 = im.filter(ImageFilter.MedianFilter(3))
+    im10 = im.filter(ImageFilter.MedianFilter(3))+
     im11 = im.filter(ImageFilter.EMBOSS)
 
     return im1,im2,im3,im4,im5,im6,im7,im8,im9,im10,im11

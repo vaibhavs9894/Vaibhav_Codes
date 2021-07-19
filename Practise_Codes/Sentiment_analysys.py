@@ -17,6 +17,7 @@ for sentence in sentences:
     pos = polarity["pos"]
     neu = polarity["neu"]
     neg = polarity["neg"]
+    print(pos,neu,neg)
     print(f'The % of positive sentiment in "{sentence}" is {round(pos*100,2)} %')
     print(f'The % of neutral sentiment in "{sentence}" is {round(neu*100,2)} %')
     print(f'The % of negative sentiment in "{sentence}" is {round(neg*100,2)} %') 
