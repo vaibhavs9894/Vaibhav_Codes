@@ -1,5 +1,12 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
+import csv 
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
-website_url = "https://www.google.co.in/search"
+fields=['first','second','third']
+print(fields)
+
+fields.append('vic')
+'''
+with open(r'name', 'a') as f:
+    writer = csv.writer(f)
+    writer.writerow(fields)
+'''
+print(fields)
