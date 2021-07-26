@@ -12,7 +12,7 @@ soup= BeautifulSoup(html,"html.parser")
 main=soup.find('div', class_='s-main-slot s-result-list s-search-results sg-row')
 
 data=[]
-for vs in main.find_all('div', class_='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20'):
+for vs in main.find_all('div', class_='sg-col-inner'):
     name=vs.find('span', class_='a-size-medium a-color-base a-text-normal').text
     price=vs.find('span', class_='a-price-whole').text
     
