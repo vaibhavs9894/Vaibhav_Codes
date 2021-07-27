@@ -1,25 +1,107 @@
-
-
-import pandas as pd
+# importing libraries
 from bs4 import BeautifulSoup
 import requests
-import streamlit as st
 
-search = "earbuds"
-url=requests.get("https://www.amazon.in/s?k=earbuds")
-#url=(url+search)
-html = url.content
-soup= BeautifulSoup(html,"html.parser")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+def main(URL):
+	# openning our output file in append mode
+	File = open("out.csv", "a")
 
-main=soup.find('body', class_='a-aui_72554-c a-aui_accordion_a11y_role_354025-c a-aui_btn_preorder_ks_359947-c a-aui_button_aria_label_markup_348458-t1 a-aui_csa_templates_buildin_ww_exp_337518-c a-aui_csa_templates_buildin_ww_launch_337517-c a-aui_csa_templates_declarative_ww_exp_337521-c a-aui_csa_templates_declarative_ww_launch_337520-c a-aui_dynamic_img_a11y_markup_345061-t1 a-aui_launch_cardui_a11y_fix_346896-c a-aui_launch_expander_ally_fix_354901-c a-aui_markup_disabled_link_btn_351411-c a-aui_pci_risk_banner_210084-c a-aui_popover_trigger_add_role_350993-c a-aui_preload_261698-c a-aui_rel_noreferrer_noopener_309527-c a-aui_template_weblab_cache_333406-c a-aui_tnr_v2_180836-c')
+	# specifying user agent, You can use other user agents
+	# available on the internet
+	HEADERS = ({'User-Agent':
+				'Mozilla/5.0 (X11; Linux x86_64)
+					AppleWebKit/537.36 (KHTML, like Gecko)
+							Chrome/44.0.2403.157 Safari/537.36',
+								'Accept-Language': 'en-US, en;q=0.5'})
 
-data=[]
-for vs in main.find_all('div', class_='a-size-base a-color-price s-price a-text-bold'):
-    name=vs.find('span', class_='a-size-medium a-color-base a-text-normal').text
-    price=vs.find('span', class_='a-price-whole').text
-    
-    data.append({"name":name,
-        "price":price})
-print(data)
-print(len(data))
-pd.DataFrame(data).to_csv("Amazon_price.csv")
+	# Making the HTTP Request
+	webpage = requests.get(URL, headers=HEADERS)
+
+	# Creating the Soup Object containing all data
+	soup = BeautifulSoup(webpage.content, "lxml")
+
+	# retreiving product title
+	try:
+		# Outer Tag Object
+		title = soup.find("span",
+						attrs={"id": 'productTitle'})
+
+		# Inner NavigableString Object
+		title_value = title.string
+
+		# Title as a string value
+		title_string = title_value.strip().replace(',', '')
+
+	except AttributeError:
+		title_string = "NA"
+	print("product Title = ", title_string)
+
+	# saving the title in the file
+	File.write(f"{title_string},")
+
+	# retreiving price
+	try:
+		price = soup.find(
+			"span", attrs={'id': 'priceblock_ourprice'})
+								.string.strip().replace(',', '')
+		# we are omitting unnecessary spaces
+		# and commas form our string
+	except AttributeError:
+		price = "NA"
+	print("Products price = ", price)
+
+	# saving
+	File.write(f"{price},")
+
+	# retreiving product rating
+	try:
+		rating = soup.find("i", attrs={
+						'class': 'a-icon a-icon-star a-star-4-5'})
+									.string.strip().replace(',', '')
+
+	except AttributeError:
+
+		try:
+			rating = soup.find(
+				"span", attrs={'class': 'a-icon-alt'})
+								.string.strip().replace(',', '')
+		except:
+			rating = "NA"
+	print("Overall rating = ", rating)
+
+	File.write(f"{rating},")
+
+	try:
+		review_count = soup.find(
+			"span", attrs={'id': 'acrCustomerReviewText'})
+								.string.strip().replace(',', '')
+
+	except AttributeError:
+		review_count = "NA"
+	print("Total reviews = ", review_count)
+	File.write(f"{review_count},")
+
+	# print availiblility status
+	try:
+		available = soup.find("div", attrs={'id': 'availability'})
+		available = available.find("span")
+					.string.strip().replace(',', '')
+
+	except AttributeError:
+		available = "NA"
+	print("Availability = ", available)
+
+	# saving the availibility and closing the line
+	File.write(f"{available},\n")
+
+	# closing the file
+	File.close()
+
+
+if __name__ == '__main__':
+# openning our url file to access URLs
+	file = open("url.txt", "r")
+
+	# iterating over the urls
+	for links in file.readlines():
+		main(links)

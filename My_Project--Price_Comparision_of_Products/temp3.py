@@ -12,8 +12,8 @@ soup= BeautifulSoup(html,"html.parser")
 main=soup.find('div', class_='s-main-slot s-result-list s-search-results sg-row')
 
 data=[]
-for vs in main.find_all('div', class_='a-section a-spacing-none'):
-    name=vs.find('span', class_='a-size-medium a-color-base a-text-normal').text
+for vs in main.find_all('div', class_='sg-row'):
+    name=vs.find("span",attrs={"class": 'a-size-medium a-color-base a-text-normal'})
     price=vs.find('span', class_='a-price-whole').text
     
     data.append({"name":name,
