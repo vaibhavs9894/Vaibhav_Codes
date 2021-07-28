@@ -1,8 +1,4 @@
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-import time
-import pandas as pd
-
+c
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 url ="https://www.amazon.in/s?k=earbuds"

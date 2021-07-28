@@ -9,15 +9,14 @@ url=requests.get("https://www.amazon.in/s?k=earbuds")
 html = url.content
 soup= BeautifulSoup(html,"html.parser")
 
-main=soup.find('div', class_='s-main-slot s-result-list s-search-results sg-row')
-
+#main=soup.find('div', class_='s-main-slot s-result-list s-search-results sg-row')
+main=soup.namefind_all('div', {'data-asin': True, 'data-component-type': 's-search-result'})
 data=[]
-for vs in main.find_all('div', class_='sg-col-inner'):
-    name=vs.find('span', class_='a-size-medium a-color-base a-text-normal').text
-    price=vs.find('span', class_='a-price-whole').text
-    
-    data.append({"name":name,
-        "price":price})
-print(data)
-print(len(data))
-pd.DataFrame(data).to_csv("Amazon_price.csv")
+for vs in main:
+    h2=vs.h2
+    title=h2.text.strip()
+    price=vs.find('span', class_='a-price-whole').text.strip('.').strip()
+    print(price)
+#print(data)
+#print(len(data))
+#pd.DataFrame(data).to_csv("Amazon_price.csv")
