@@ -10,7 +10,7 @@ url ="https://www.amazon.in/s?k=earbuds"
 driver.get(url)
 time.sleep(2)
 
-main_area = driver.find_element_by_css_selector("div.s-main-slot s-result-list s-search-results sg-row")
+main_area = driver.find_element_by_css_selector("div.s-desktop-width-max.s-opposite-dir")
 name = main_area.find_elements_by_css_selector("span.a-size-medium a-color-base a-text-normal")
 price = main_area.find_elements_by_css_selector('span.a-price-whole')
 
