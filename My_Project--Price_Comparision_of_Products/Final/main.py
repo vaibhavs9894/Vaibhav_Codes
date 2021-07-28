@@ -12,7 +12,7 @@ st.sidebar.image("https://media.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif", w
 df = pd.read_csv('Flipkart_price.csv')
 st.write(df.head(50))
 da= pd.read_csv('Amazon_price.csv')
-
+st.write(da.head(50))
 option=st.sidebar.selectbox("Choose any option",['costliest','Cheapest','Average'])
 
 if option == 'costliest':
