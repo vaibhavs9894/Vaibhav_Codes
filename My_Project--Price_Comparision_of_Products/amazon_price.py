@@ -1,23 +1,24 @@
+from temp6 import Price_compare
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+import time
 import pandas as pd
-from bs4 import BeautifulSoup
-import requests
-import streamlit as st
 
-search = "earbuds"
-url=requests.get("https://www.amazon.in/s?k=earbuds")
-#url=(url+search)
-html = url.content
-soup= BeautifulSoup(html,"html.parser")
+driver = webdriver.Chrome(ChromeDriverManager().install())
 
-main=soup.find('div', class_='s-search-results')
+url ="https://www.amazon.in/s?k=earbuds"
+driver.get(url)
+time.sleep(2)
 
-data=[]
-for vs in main.find_all('div', class_='s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 AdHolder sg-col sg-col-12-of-16'):
-    name=vs.find('span', class_='a-size-medium a-color-base a-text-normal').text
-    price=vs.find('span', class_='a-price-whole').text
-    
-    data.append({"name":name,
-        "price":price})
-print(data)
-print(len(data))
+main_area = driver.find_element_by_css_selector("div.s-main-slot s-result-list s-search-results sg-row")
+name = main_area.find_elements_by_css_selector("span.a-size-medium a-color-base a-text-normal")
+price = main_area.find_elements_by_css_selector('span.a-price-whole')
+
+data = []
+for a,b in zip(name,price):
+    data.append({
+        "name":a,
+        'price':b})
+
+driver.close()
 pd.DataFrame(data).to_csv("Amazon_price.csv")

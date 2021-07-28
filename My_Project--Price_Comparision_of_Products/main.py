@@ -2,21 +2,14 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import streamlit as st
-import base64
 
+st.set_page_config(page_title='Price Comparision of Product')
 
-
-#Scraping from Flipkart
-#search = st.text_input('Enter the product')
-#k="https://www.flipkart.com/search?q=earbuds"
-#l = k+search
-#url=requests.get(l)
 url=requests.get("https://www.flipkart.com/search?q=earbuds")
 html = url.content
 soup= BeautifulSoup(html,"html.parser")
 
 main=soup.find('div', class_='_1YokD2 _2GoDe3')
-
 
 data2=[]
 for vs in main.find_all('div', class_='_4ddWXP'):
@@ -29,7 +22,7 @@ print(data2)
 print(len(data2))
 pd.DataFrame(data2).to_csv("Flipkart_price.csv")
 
-st.set_page_config(page_title='Price Comparision of Product')
+
 st.sidebar.header("Compare Product between Amazon and Flipkart")
 st.sidebar.image("https://media.giphy.com/media/SpopD7IQN2gK3qN4jS/giphy.gif", width=300)
 
@@ -72,3 +65,5 @@ if option == 'Average':
 
 if(st.button("Feeling Lucky")):
     st.image("https://media.giphy.com/media/fUYhyT9IjftxrxJXcE/giphy.gif", width=300)
+
+st.beta_container()
