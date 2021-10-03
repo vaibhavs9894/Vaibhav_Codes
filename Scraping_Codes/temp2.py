@@ -5,7 +5,7 @@ import pandas as pd
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-url ="https://www.himalayanwritingretreat.com/bestselling-books-in-india/#tve-jump-17aaf315541"
+url ="https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW"
 driver.get(url)
 time.sleep(2)
 
@@ -22,4 +22,4 @@ for vs in zip(main_area):
 
 driver.close()
 print(data)
-#pd.DataFrame(data).to_csv("top_movies.csv")
+pd.DataFrame(data).to_csv("Box_Office_Collection.csv")
