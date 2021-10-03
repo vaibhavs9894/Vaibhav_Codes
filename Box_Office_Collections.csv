@@ -1,201 +1,101 @@
-,Title,year
-0,Avatar,2009
-1,Avengers: Endgame,2019
-2,Titanic,1997
-3,Star Wars: Episode VII - The Force Awakens,2015
-4,Avengers: Infinity War,2018
-5,Jurassic World,2015
-6,The Lion King,2019
-7,The Avengers,2012
-8,Furious 7,2015
-9,Frozen II,2019
-10,Avengers: Age of Ultron,2015
-11,Black Panther,2018
-12,Harry Potter and the Deathly Hallows: Part 2,2011
-13,Star Wars: Episode VIII - The Last Jedi,2017
-14,Jurassic World: Fallen Kingdom,2018
-15,Frozen,2013
-16,Beauty and the Beast,2017
-17,Incredibles 2,2018
-18,The Fate of the Furious,2017
-19,Iron Man 3,2013
-20,Minions,2015
-21,Captain America: Civil War,2016
-22,Aquaman,2018
-23,The Lord of the Rings: The Return of the King,2003
-24,Spider-Man: Far from Home,2019
-25,Captain Marvel,2019
-26,Transformers: Dark of the Moon,2011
-27,Skyfall,2012
-28,Transformers: Age of Extinction,2014
-29,The Dark Knight Rises,2012
-30,Star Wars: Episode IX - The Rise of Skywalker,2019
-31,Joker,2019
-32,Toy Story 4,2019
-33,Toy Story 3,2010
-34,Pirates of the Caribbean: Dead Man's Chest,2006
-35,The Lion King,1994
-36,Rogue One: A Star Wars Story,2016
-37,Aladdin,2019
-38,Pirates of the Caribbean: On Stranger Tides,2011
-39,Despicable Me 3,2017
-40,Jurassic Park,1993
-41,Finding Dory,2016
-42,Star Wars: Episode I - The Phantom Menace,1999
-43,Alice in Wonderland,2010
-44,Zootopia,2016
-45,The Hobbit: An Unexpected Journey,2012
-46,Harry Potter and the Sorcerer's Stone,2001
-47,The Dark Knight,2008
-48,Harry Potter and the Deathly Hallows: Part 1,2010
-49,Despicable Me 2,2013
-50,The Jungle Book,2016
-51,Jumanji: Welcome to the Jungle,2017
-52,The Hobbit: The Battle of the Five Armies,2014
-53,Pirates of the Caribbean: At World's End,2007
-54,The Hobbit: The Desolation of Smaug,2013
-55,The Lord of the Rings: The Two Towers,2002
-56,Harry Potter and the Order of the Phoenix,2007
-57,Finding Nemo,2003
-58,Harry Potter and the Half-Blood Prince,2009
-59,Shrek 2,2004
-60,Bohemian Rhapsody,2018
-61,The Lord of the Rings: The Fellowship of the Ring,2001
-62,Harry Potter and the Goblet of Fire,2005
-63,Spider-Man 3,2007
-64,Ice Age: Dawn of the Dinosaurs,2009
-65,Spectre,2015
-66,Spider-Man: Homecoming,2017
-67,Harry Potter and the Chamber of Secrets,2002
-68,Ice Age: Continental Drift,2012
-69,The Secret Life of Pets,2016
-70,Batman v Superman: Dawn of Justice,2016
-71,Wolf Warrior 2,2017
-72,Star Wars: Episode III - Revenge of the Sith,2005
-73,The Hunger Games: Catching Fire,2013
-74,Guardians of the Galaxy Vol. 2,2017
-75,Inside Out,2015
-76,Venom,2018
-77,Thor: Ragnarok,2017
-78,Inception,2010
-79,Transformers: Revenge of the Fallen,2009
-80,The Twilight Saga: Breaking Dawn - Part 2,2012
-81,Spider-Man,2002
-82,Wonder Woman,2017
-83,"Hi, Mom",2021
-84,Independence Day,1996
-85,Fantastic Beasts and Where to Find Them,2016
-86,Shrek the Third,2007
-87,Coco,2017
-88,Jumanji: The Next Level,2019
-89,Harry Potter and the Prisoner of Azkaban,2004
-90,Pirates of the Caribbean: Dead Men Tell No Tales,2017
-91,E.T. the Extra-Terrestrial,1982
-92,Mission: Impossible - Fallout,2018
-93,2012,2009
-94,Indiana Jones and the Kingdom of the Crystal Skull,2008
-95,Spider-Man 2,2004
-96,Fast & Furious 6,2013
-97,Deadpool 2,2018
-98,Deadpool,2016
-99,Star Wars: Episode IV - A New Hope,1977
-100,Guardians of the Galaxy,2014
-101,The Da Vinci Code,2006
-102,Fast & Furious Presents: Hobbs & Shaw,2019
-103,Maleficent,2014
-104,The Amazing Spider-Man,2012
-105,The Hunger Games: Mockingjay - Part 1,2014
-106,Shrek Forever After,2010
-107,Madagascar 3: Europe's Most Wanted,2012
-108,Suicide Squad,2016
-109,X-Men: Days of Future Past,2014
-110,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005
-111,Monsters University,2013
-112,The Matrix Reloaded,2003
-113,Up,2009
-114,Ne Zha,2019
-115,Gravity,2013
-116,F9: The Fast Saga,2021
-117,Captain America: The Winter Soldier,2014
-118,The Twilight Saga: Breaking Dawn - Part 1,2011
-119,The Twilight Saga: New Moon,2009
-120,Dawn of the Planet of the Apes,2014
-121,Transformers,2007
-122,The Amazing Spider-Man 2,2014
-123,It,2017
-124,Interstellar,2014
-125,The Wandering Earth,2019
-126,The Twilight Saga: Eclipse,2010
-127,Mission: Impossible - Ghost Protocol,2011
-128,The Hunger Games,2012
-129,Detective Chinatown 3,2021
-130,Mission: Impossible - Rogue Nation,2015
-131,Forrest Gump,1994
-132,Doctor Strange,2016
-133,The Sixth Sense,1999
-134,Man of Steel,2013
-135,Ice Age: The Meltdown,2006
-136,Kung Fu Panda 2,2011
-137,The Hunger Games: Mockingjay - Part 2,2015
-138,Justice League,2017
-139,Big Hero 6,2014
-140,Fantastic Beasts: The Crimes of Grindelwald,2018
-141,Pirates of the Caribbean: The Curse of the Black Pearl,2003
-142,Star Wars: Episode II - Attack of the Clones,2002
-143,Thor: The Dark World,2013
-144,Moana,2016
-145,Sing,2016
-146,Kung Fu Panda,2008
-147,The Incredibles,2004
-148,The Martian,2015
-149,Hancock,2008
-150,Fast Five,2011
-151,Men in Black 3,2012
-152,Iron Man 2,2010
-153,Ratatouille,2007
-154,Ant-Man and the Wasp,2018
-155,How to Train Your Dragon 2,2014
-156,Logan,2017
-157,The Lost World: Jurassic Park,1997
-158,Casino Royale,2006
-159,The Passion of the Christ,2004
-160,Mamma Mia!,2008
-161,Life of Pi,2012
-162,Transformers: The Last Knight,2017
-163,Madagascar: Escape 2 Africa,2008
-164,War of the Worlds,2005
-165,Tangled,2010
-166,Quantum of Solace,2008
-167,Men in Black,1997
-168,The Croods,2013
-169,The Hangover Part II,2011
-170,Iron Man,2008
-171,I Am Legend,2007
-172,Ready Player One,2018
-173,"Monsters, Inc.",2001
-174,Operation Red Sea,2018
-175,Night at the Museum,2006
-176,Fifty Shades of Grey,2015
-177,Kong: Skull Island,2017
-178,The Smurfs,2011
-179,Cars 2,2011
-180,King Kong,2005
-181,Puss in Boots,2011
-182,Mei ren yu,2016
-183,Armageddon,1998
-184,The Day After Tomorrow,2004
-185,Ted,2012
-186,American Sniper,2014
-187,Mission: Impossible II,2000
-188,Detective Chinatown 2,2018
-189,X-Men: Apocalypse,2016
-190,Sherlock Holmes: A Game of Shadows,2011
-191,Despicable Me,2010
-192,Cinderella,2015
-193,Madagascar,2005
-194,World War Z,2013
-195,Brave,2012
-196,Star Wars: Episode V - The Empire Strikes Back,1980
-197,The Simpsons Movie,2007
-198,The Revenant,2015
-199,The Meg,2018
+,Title,year,Box_Office_Collection
+0,Avatar,2009,"$2,797,501,328"
+1,Avengers: Endgame,2019,"$2,069,521,700"
+2,Titanic,1997,"$1,670,516,444"
+3,Star Wars: Episode VII - The Force Awakens,2015,"$1,518,815,515"
+4,Avengers: Infinity War,2018,"$1,450,026,933"
+5,Jurassic World,2015,"$1,347,597,973"
+6,The Lion King,2019,"$1,332,698,830"
+7,The Avengers,2012,"$1,281,508,100"
+8,Furious 7,2015,"$1,244,639,527"
+9,Frozen II,2019,"$1,214,811,252"
+10,Avengers: Age of Ultron,2015,"$1,153,337,496"
+11,Black Panther,2018,"$1,146,030,912"
+12,Harry Potter and the Deathly Hallows: Part 2,2011,"$1,128,462,972"
+13,Star Wars: Episode VIII - The Last Jedi,2017,"$1,108,569,499"
+14,Jurassic World: Fallen Kingdom,2018,"$1,081,142,612"
+15,Frozen,2013,"$1,074,419,384"
+16,Beauty and the Beast,2017,"$1,066,970,811"
+17,Incredibles 2,2018,"$1,063,611,805"
+18,The Fate of the Furious,2017,"$1,050,693,953"
+19,Iron Man 3,2013,"$1,034,800,131"
+20,Minions,2015,"$1,028,570,942"
+21,Captain America: Civil War,2016,"$1,025,468,216"
+22,Aquaman,2018,"$1,017,003,568"
+23,The Lord of the Rings: The Return of the King,2003,"$1,005,973,645"
+24,Spider-Man: Far from Home,2019,"$970,766,005"
+25,Captain Marvel,2019,"$962,542,945"
+26,Transformers: Dark of the Moon,2011,"$960,996,492"
+27,Skyfall,2012,"$947,495,095"
+28,Transformers: Age of Extinction,2014,"$940,352,645"
+29,The Dark Knight Rises,2012,"$928,760,770"
+30,Star Wars: Episode IX - The Rise of Skywalker,2019,"$897,690,072"
+31,Joker,2019,"$894,983,373"
+32,Toy Story 4,2019,"$880,681,519"
+33,Toy Story 3,2010,"$879,602,366"
+34,Pirates of the Caribbean: Dead Man's Chest,2006,"$875,458,631"
+35,The Lion King,1994,"$870,325,439"
+36,Rogue One: A Star Wars Story,2016,"$865,011,746"
+37,Aladdin,2019,"$858,848,019"
+38,Pirates of the Caribbean: On Stranger Tides,2011,"$853,983,911"
+39,Despicable Me 3,2017,"$836,303,693"
+40,Jurassic Park,1993,"$825,025,036"
+41,Finding Dory,2016,"$822,009,764"
+42,Star Wars: Episode I - The Phantom Menace,1999,"$814,044,001"
+43,Alice in Wonderland,2010,"$807,817,888"
+44,Zootopia,2016,"$797,361,618"
+45,The Hobbit: An Unexpected Journey,2012,"$792,910,554"
+46,Harry Potter and the Sorcerer's Stone,2001,"$791,217,826"
+47,The Dark Knight,2008,"$788,976,453"
+48,Harry Potter and the Deathly Hallows: Part 1,2010,"$786,470,484"
+49,Despicable Me 2,2013,"$775,398,007"
+50,The Jungle Book,2016,"$760,006,945"
+51,Jumanji: Welcome to the Jungle,2017,"$758,411,779"
+52,The Hobbit: The Battle of the Five Armies,2014,"$755,356,711"
+53,Pirates of the Caribbean: At World's End,2007,"$746,921,274"
+54,The Hobbit: The Desolation of Smaug,2013,"$746,045,700"
+55,The Lord of the Rings: The Two Towers,2002,"$743,559,645"
+56,Harry Potter and the Order of the Phoenix,2007,"$735,099,102"
+57,Finding Nemo,2003,"$723,192,705"
+58,Harry Potter and the Half-Blood Prince,2009,"$714,421,503"
+59,Shrek 2,2004,"$711,025,481"
+60,Bohemian Rhapsody,2018,"$709,709,780"
+61,The Lord of the Rings: The Fellowship of the Ring,2001,"$701,796,444"
+62,Harry Potter and the Goblet of Fire,2005,"$699,992,512"
+63,Spider-Man 3,2007,"$694,713,380"
+64,Ice Age: Dawn of the Dinosaurs,2009,"$686,257,563"
+65,Spectre,2015,"$678,226,133"
+66,Spider-Man: Homecoming,2017,"$672,806,432"
+67,Harry Potter and the Chamber of Secrets,2002,"$667,094,506"
+68,Ice Age: Continental Drift,2012,"$658,344,137"
+69,The Secret Life of Pets,2016,"$657,869,686"
+70,Batman v Superman: Dawn of Justice,2016,"$654,264,015"
+71,Wolf Warrior 2,2017,"$644,783,140"
+72,Star Wars: Episode III - Revenge of the Sith,2005,"$634,208,384"
+73,The Hunger Games: Catching Fire,2013,"$631,607,053"
+74,Guardians of the Galaxy Vol. 2,2017,"$629,443,428"
+75,Inside Out,2015,"$624,026,776"
+76,Venom,2018,"$623,726,085"
+77,Thor: Ragnarok,2017,"$621,537,519"
+78,Inception,2010,"$618,638,999"
+79,Transformers: Revenge of the Fallen,2009,"$612,054,506"
+80,The Twilight Saga: Breaking Dawn - Part 2,2012,"$609,016,565"
+81,Spider-Man,2002,"$603,900,354"
+82,Wonder Woman,2017,"$592,462,816"
+83,"Hi, Mom",2021,"$589,390,539"
+84,Independence Day,1996,"$586,764,305"
+85,Fantastic Beasts and Where to Find Them,2016,"$585,410,052"
+86,Shrek the Third,2007,"$579,707,738"
+87,Coco,2017,"$574,481,229"
+88,Jumanji: The Next Level,2019,"$566,652,812"
+89,Harry Potter and the Prisoner of Azkaban,2004,"$559,852,396"
+90,Pirates of the Caribbean: Dead Men Tell No Tales,2017,"$554,987,477"
+91,E.T. the Extra-Terrestrial,1982,"$553,709,788"
+92,Mission: Impossible - Fallout,2018,"$549,368,315"
+93,2012,2009,"$546,388,108"
+94,Indiana Jones and the Kingdom of the Crystal Skull,2008,"$543,934,105"
+95,Spider-Man 2,2004,"$543,113,985"
+96,Fast & Furious 6,2013,"$542,063,846"
+97,Deadpool 2,2018,"$538,983,207"
+98,Deadpool,2016,"$536,414,293"
+99,Star Wars: Episode IV - A New Hope,1977,"$530,259,473"
