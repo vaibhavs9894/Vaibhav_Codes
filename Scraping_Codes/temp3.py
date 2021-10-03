@@ -9,8 +9,6 @@ main=soup.find('div',class_='a-section imdb-scroll-table-inner')
 title=main.find_all('a')
 Boxoffice=main.find_all('td',class_ ='a-text-right mojo-field-type-money')
 data=[]
-#for vs in main.find_all('tr', class_='cb-srs-stats-tr'):
-  #  name=vs.text
 i=1
 j=2
 a=0
