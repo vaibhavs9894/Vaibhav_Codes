@@ -1,2 +1,4 @@
-for i in range(100000):
-    print(i)
+fruits = ["apple", "banana", "cherry"]
+
+for a in fruits:
+    print(a)

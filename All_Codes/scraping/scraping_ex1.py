@@ -5,6 +5,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 website_url = "https://www.google.co.in/search"
 
 # load a website
-search_term = "earbuds"
+search_term= input("tell me a item to search")
+#search_term = "earbuds"
 driver.get(website_url+"?q="+search_term) 
 # driver.get(f"{website_url}?q={search_term}")
