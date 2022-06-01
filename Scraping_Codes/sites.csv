@@ -1,0 +1,168 @@
+,site
+0,Python HOME
+1,Python Intro
+2,Python Get Started
+3,Python Syntax
+4,Python Comments
+5,Python Variables
+6,Python Variables
+7,Variable Names
+8,Assign Multiple Values
+9,Output Variables
+10,Global Variables
+11,Variable Exercises
+12,Python Data Types
+13,Python Numbers
+14,Python Casting
+15,Python Strings
+16,Python Strings
+17,Slicing Strings
+18,Modify Strings
+19,Concatenate Strings
+20,Format Strings
+21,Escape Characters
+22,String Methods
+23,String Exercises
+24,Python Booleans
+25,Python Operators
+26,Python Lists
+27,Python Lists
+28,Access List Items
+29,Change List Items
+30,Add List Items
+31,Remove List Items
+32,Loop Lists
+33,List Comprehension
+34,Sort Lists
+35,Copy Lists
+36,Join Lists
+37,List Methods
+38,List Exercises
+39,Python Tuples
+40,Python Tuples
+41,Access Tuples
+42,Update Tuples
+43,Unpack Tuples
+44,Loop Tuples
+45,Join Tuples
+46,Tuple Methods
+47,Tuple Exercises
+48,Python Sets
+49,Python Sets
+50,Access Set Items
+51,Add Set Items
+52,Remove Set Items
+53,Loop Sets
+54,Join Sets
+55,Set Methods
+56,Set Exercises
+57,Python Dictionaries
+58,Python Dictionaries
+59,Access Items
+60,Change Items
+61,Add Items
+62,Remove Items
+63,Loop Dictionaries
+64,Copy Dictionaries
+65,Nested Dictionaries
+66,Dictionary Methods
+67,Dictionary Exercise
+68,Python If...Else
+69,Python While Loops
+70,Python For Loops
+71,Python Functions
+72,Python Lambda
+73,Python Arrays
+74,Python Classes/Objects
+75,Python Inheritance
+76,Python Iterators
+77,Python Scope
+78,Python Modules
+79,Python Dates
+80,Python Math
+81,Python JSON
+82,Python RegEx
+83,Python PIP
+84,Python Try...Except
+85,Python User Input
+86,Python String Formatting
+87,Python File Handling
+88,Python Read Files
+89,Python Write/Create Files
+90,Python Delete Files
+91,NumPy Tutorial
+92,Pandas Tutorial
+93,SciPy Tutorial
+94,Matplotlib Intro
+95,Matplotlib Get Started
+96,Matplotlib Pyplot
+97,Matplotlib Plotting
+98,Matplotlib Markers
+99,Matplotlib Line
+100,Matplotlib Labels
+101,Matplotlib Grid
+102,Matplotlib Subplot
+103,Matplotlib Scatter
+104,Matplotlib Bars
+105,Matplotlib Histograms
+106,Matplotlib Pie Charts
+107,Getting Started
+108,Mean Median Mode
+109,Standard Deviation
+110,Percentile
+111,Data Distribution
+112,Normal Data Distribution
+113,Scatter Plot
+114,Linear Regression
+115,Polynomial Regression
+116,Multiple Regression
+117,Scale
+118,Train/Test
+119,Decision Tree
+120,MySQL Get Started
+121,MySQL Create Database
+122,MySQL Create Table
+123,MySQL Insert
+124,MySQL Select
+125,MySQL Where
+126,MySQL Order By
+127,MySQL Delete
+128,MySQL Drop Table
+129,MySQL Update
+130,MySQL Limit
+131,MySQL Join
+132,MongoDB Get Started
+133,MongoDB Create Database
+134,MongoDB Create Collection
+135,MongoDB Insert
+136,MongoDB Find
+137,MongoDB Query
+138,MongoDB Sort
+139,MongoDB Delete
+140,MongoDB Drop Collection
+141,MongoDB Update
+142,MongoDB Limit
+143,Python Overview
+144,Python Built-in Functions
+145,Python String Methods
+146,Python List Methods
+147,Python Dictionary Methods
+148,Python Tuple Methods
+149,Python Set Methods
+150,Python File Methods
+151,Python Keywords
+152,Python Exceptions
+153,Python Glossary
+154,Random Module
+155,Requests Module
+156,Statistics Module
+157,Math Module
+158,cMath Module
+159,Remove List Duplicates
+160,Reverse a String
+161,Add Two Numbers
+162,Python Examples
+163,Python Compiler
+164,Python Exercises
+165,Python Quiz
+166,Python Certificate

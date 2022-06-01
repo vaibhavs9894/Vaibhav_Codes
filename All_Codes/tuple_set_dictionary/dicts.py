@@ -1,4 +1,4 @@
-emp = {
+ emp = {
     'name':'Raj verma',
     'designation':'Assistant level 3',
     'salary':{
